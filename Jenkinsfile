@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'Yhttps://github.com/vengadeshkumar123/Jenkins-intern'
+                    url: 'https://github.com/vengadeshkumar123/Jenkins-intern'
             }
         }
 
